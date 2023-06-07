@@ -1,0 +1,20 @@
+.first-div {
+    width: 50%;
+    padding-left: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    text-align: left;
+}
+.second-div {
+    width: 50%;
+}
+
+.App {
+    flex-direction: row;
+}
+
+.profile-name {
+    color: #61dafb;
+}
