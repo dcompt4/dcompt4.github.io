@@ -13,7 +13,13 @@ function Home (){
                      Computer Science with a concentration in Software Engineering and a minor in Digital Media Arts and Engineering in
                       Technology.</p>
 
-                      <img src='https://icons8.com/icon/84884/instagram' />
+                    <div class="social-holder">
+                        <a target="_blank" href="https://www.linkedin.com/in/dean-compton-7bb44a207/" class="fa fa-linkedin social-link"></a>
+                        <a target="_blank" href="https://www.facebook.com/dean.compton.92" class="fa fa-facebook social-link"></a>
+                        <a target="_blank" href="https://www.instagram.com/dean__compton/" class="fa fa-instagram social-link"></a>
+                        <a target="_blank" href="https://twitter.com/deancompton7" class="fa fa-twitter social-link"></a>
+                    </div>
+                      
             </div>
             <div class="second-div">
                 <img src={logo} className="App-logo" alt="logo" />
