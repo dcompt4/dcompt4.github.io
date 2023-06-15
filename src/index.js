@@ -7,7 +7,9 @@ import reportWebVitals from './reportWebVitals';
 import AppRouter from './AppRouter';
 //import 'bootstrap/dist/css/bootstrap.css';
 
-ReactDOM.render(<AppRouter />, document.getElementById('root'));
+ReactDOM.render(<AppRouter>
+    {/* The rest of your app goes here */}
+  </AppRouter>, document.getElementById('root'));
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
 // root.render(

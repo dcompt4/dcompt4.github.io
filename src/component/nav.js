@@ -1,6 +1,7 @@
 import React,  {useEffect} from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import $ from 'jquery';
+import { Link } from 'react-router-dom';
 
 
 const navigation = [
@@ -22,9 +23,11 @@ const Nav = () => {
           <Navbar bg="dark" variant="dark">
     
                 {navigation.map((data, idx) => (
-                <a class="nav-link fade-btn" href={data.link}>
-                <span class="material-symbols-outlined nav-icon">{data.icon}</span>
-                {data.label}</a>))}
+
+<Link to={data.link}>{data.label}</Link>
+
+
+                ))}
               
           </Navbar>
         </>

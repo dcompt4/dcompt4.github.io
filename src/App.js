@@ -3,18 +3,6 @@ import './App.css';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 
-
-const languages = [
-  { title: 'java',        rating: 1 },
-  { title: 'html',        rating: 2 },
-  { title: 'css',         rating: 3 },
-  { title: 'javascript',  rating: 3 },
-  { title: 'php',         rating: 3 },
-  { title: 'sql',         rating: 3 },
-  { title: 'python',      rating: 3 },
-  { title: 'c#',          rating: 3 },
-];
-
 const navigation = [
   { icon: 'language',  label: 'Dean Compton' },
   { icon: 'home',  label: 'Home',      link: '/'},
