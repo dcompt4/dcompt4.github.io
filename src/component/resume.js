@@ -1,24 +1,25 @@
 import React from 'react';
-import logo from '../logo.svg';
 import '../App.css';
-  
+import resume from '../test.pdf';
+import { Document, Page, pdfjs } from 'react-pdf';
+
+pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+
 function Resume (){
+
+  const pdfUrl = '../test.pdf'; // Replace with the actual path to your resume PDF file
     return (
         <div className="App">    
-        
-          <div class="container-main">
-            <img src={logo} className="App-logo" alt="logo" />
-            <p>
-              No <code>src/App.js</code> and save to reload.
-            </p>
-            <a
-              className="App-link"
-              href="https://reactjs.org"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learn React
-            </a>
+          <div class="first-div">
+            <h1>
+              Resume
+            </h1>
+            <div style={{ width: '100%', maxWidth: '800px', margin: '0 auto' }}>
+              <Document file={pdfUrl}>
+                <Page pageNumber={1} />
+              </Document>
+            </div>
+
           </div>
         </div>
       );

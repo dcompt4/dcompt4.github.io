@@ -1,0 +1,49 @@
+.App {
+    align-items: flex-start !important;
+}
+
+.badge-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.projects-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.project {
+    width: 50%;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    text-align: left;
+    margin: auto;
+    margin-bottom: 50px;
+
+    background-color: rgb(204, 204, 204);
+    border-radius: 20px;
+}
+
+@keyframes wipe-enter {
+	0% {
+		transform: scale(0, .025);
+	}
+	50% {
+		transform: scale(1, .025);
+	}
+}
+
+
+
+  @media (prefers-reduced-motion: no-preference) {
+    .square-animation {
+      animation: wipe-enter 1s 1;
+    }
+  }

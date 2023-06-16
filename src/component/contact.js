@@ -1,26 +1,18 @@
 import React from 'react';
-import logo from '../logo.svg';
 import '../App.css';
+import '../styles/contact.css';
+
   
 function Contact (){
     return (
-        <div className="App">    
-        
-          <div class="container-main">
-            <img src={logo} className="App-logo" alt="logo" />
-            <p>
-              No <code>src/App.js</code> and save to reload.
-            </p>
-            <a
-              className="App-link"
-              href="https://reactjs.org"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learn React
-            </a>
-          </div>
-        </div>
+      <div className="App">
+        <div class="first-div">
+          <h1>Contact <span class="profile-name">Dean Compton</span></h1>
+          <div class='contact-link'>
+            <i class="fa fa-envelope"></i> <a href = "mailto: deancompton194@yahoo.com">deancompton194@yahoo.com</a>
+          </div>  
+      </div>
+  </div>
       );
 }
 

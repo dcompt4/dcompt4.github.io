@@ -21,13 +21,13 @@ const Nav = () => {
     return (
         <>
           <Navbar bg="dark" variant="dark">
+          <Link to='/'><span class="material-symbols-outlined nav-icon">language</span>Dean Compton</Link>
+          <Link to='/'><span class="material-symbols-outlined nav-icon">home</span>Home</Link>
+          <Link to='/projects'><span class="material-symbols-outlined nav-icon">work</span>Projects</Link>
+          <Link to='/contact'><span class="material-symbols-outlined nav-icon">call</span>Contact</Link>
+          <Link to='/resume'><span class="material-symbols-outlined nav-icon">description</span>Resume</Link>
     
-                {navigation.map((data, idx) => (
-
-<Link to={data.link}>{data.label}</Link>
-
-
-                ))}
+          {/* {navigation.map((data, idx) => (<Link to={data.link}>{data.label}</Link>))} */}
               
           </Navbar>
         </>

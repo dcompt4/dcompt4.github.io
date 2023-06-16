@@ -1,0 +1,10 @@
+.contact-link {
+    display:flex;
+    justify-content: left;
+    align-items: center;
+}
+.contact-link a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}

@@ -1,0 +1,18 @@
+.dc-badge {
+    border-radius: 20px;
+    background-color: #61dafb;
+    width: 50px;
+    border: #61dafb 1px solid;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+    text-align: center;
+    
+    font-weight: bold;
+}
+
+.dc-badge:not(:first-child) {
+    margin-left:10px
+  }
